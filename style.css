@@ -154,3 +154,92 @@ footer{
 }
 
 }
+.hello-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.hello-btn:hover{
+    background:#0ea5e9;
+    transform:translateY(-3px);
+}
+.btn{
+    display:inline-block;
+    margin:10px 0;
+    padding:12px 25px;
+    background:#00c6ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+#contact{
+    padding:40px 20px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px 0;
+    padding:12px 25px;
+    background:#00d4ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    margin:5px 0;   /* Pehle 10px tha, ab gap kam ho jayega */
+    padding:12px 25px;
+    background:#00d4ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+/* Instagram button */
+#contact a:last-child{
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.btn{
+    display:inline-block;
+    margin:1px 0;   /* Gap bohat kam */
+    padding:12px 25px;
+    background:#00d4ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+#contact .btn{
+    display: inline-block;
+    margin: 4px 0;
+}
+
+.insta-btn{
+    background: #E1306C;
+}
+#contact .btn{
+    display:inline-block;
+    margin:4px;
+}
+
+.insta-btn{
+    background:#E1306C;
+}
+
+.fb-btn{
+    background:#1877F2;
+}

@@ -483,22 +483,6 @@ footer{
     text-align:center;
 }
 
-@media (max-width:768px){
-
-    .contact-buttons{
-        flex-direction:column;
-    }
-
-    .contact-buttons .btn{
-        width:260px;
-    }
-.contact-buttons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:wrap;
-    margin-top:30px;
-}
 
 @media(max-width:768px){
     .contact-buttons{

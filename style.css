@@ -466,3 +466,26 @@ footer{
     color:#38bdf8;
     font-weight:bold;
 }
+
+/* Contact Buttons Mobile Fix */
+
+.contact-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+@media(max-width:900px){
+
+    .contact-buttons{
+        flex-direction:column;
+    }
+
+    .contact-buttons a{
+        width:100%;
+        max-width:260px;
+    }
+
+}
